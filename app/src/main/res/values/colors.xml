@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <item name="black" type="color">#000000</item>
+    <item name="white" type="color">#FFFFFF</item>
+    <item name="green" type="color">#00FF00</item>
+    <item name="red" type="color">#F00</item>
+    <item name="yellow" type="color">#ffff00</item>
+    <item name="orange" type="color">#FF9900</item>
+    <item name="Difgreen" type="color">#23CE6B</item>
+    <item name="Difred" type="color">#CC2936</item>
+    <item name="Difyellow" type="color">#E8C937</item>
+    <item name="Diforange" type="color">#E4572E</item>
+</resources>

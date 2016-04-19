@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Trapper</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="play_button_text">Play</string>
+    <string name="death_screen_title">You died</string>
+    <string name ="Back_To_Main_Menu">Main Menu</string>
+    <string name="pause_button_text">Pause</string>
+    <string name="instruction_button_text">Instructions</string>
+    <string name="instructions_text">
+        Trap the blue orbs before they die. Do not trap the red orbs because you will die.
+        Act fast because blue orbs have limited lifespans and if they die you lose a life. Blue orbs turn yellow and shrink before
+        they die. You have 3 lives to begin with. Good luck!
+    </string>
+    <string name="main_menu">Done</string>
+    <string name="death_message">You Died</string>
+    <string name="score">Score: %1$d</string>
+    <string name="dif_score_message_PT1">Level: %1$s</string>
+    <string name="high_score_message_PT2">High Score: %1$d </string>
+    <string name="death_score_message_PT2">Your Score: %1$d </string>
+    <string name="current_difficulty">Difficulty: %1$s</string>
+    <string name="difficultyButtonText">Level</string>
+    <string name="easyDifficulty">Easy</string>
+    <string name="mediumDifficulty">Medium</string>
+    <string name="hardDifficulty">Hard</string>
+    <string name="insaneDifficulty">Insane</string>
+    <string name="gameTestTitle">Game Title</string>
+    <string name="welcome_title">Welcome to Trapper</string>
+    <string name="tipOne">Hint: Don\'t lift your finger off of the screen.</string>
+
+</resources>

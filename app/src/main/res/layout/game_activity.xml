@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.vroy.trapper.gameContent.GameActivity"
+    android:id="@+id/screenLayout">
+
+
+    <com.vroy.trapper.gameContent.GameView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:id="@+id/GameScreen" />
+
+    <com.vroy.trapper.widgets.AutoResizeTextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/score_text"
+        android:text="@string/score"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        />
+
+</RelativeLayout>

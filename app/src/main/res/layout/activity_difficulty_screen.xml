@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:background="@color/black"
+    tools:context="com.vroy.trapper.menuscreens.DifficultyScreenActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/TbtnBar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+
+
+        <Button
+            android:background="@drawable/rounded_rect_btn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/easyDifficulty"
+            android:id="@+id/easyDifBtn"
+            android:textColor="@color/white"
+            android:onClick="easyDifBtnPressed"/>
+
+        <Button
+            android:background="@drawable/rounded_rect_btn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/mediumDifficulty"
+            android:textColor="@color/white"
+            android:id="@+id/mediumDifBtn"
+            android:onClick="mediumDifBtnPressed"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/BbtnBar"
+        android:layout_below="@+id/TbtnBar">
+
+        <Button
+            android:background="@drawable/rounded_rect_btn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/hardDifficulty"
+            android:id="@+id/hardDifBtn"
+            android:textColor="@color/white"
+            android:onClick="hardDifBtnPressed"/>
+
+        <Button
+            android:background="@drawable/rounded_rect_btn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/insaneDifficulty"
+            android:id="@+id/insaneDifBtn"
+            android:textColor="@color/white"
+            android:onClick="insaneDifBtnPressed"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/main_menu"
+        android:id="@+id/difficulty_screen_backBtn"
+        android:background="@drawable/rounded_rect_btn"
+        android:onClick="backBtnPressed"
+        />
+
+    <com.vroy.trapper.widgets.AutoResizeTextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/DIF_SCREEN_HSCOREMSGPT2"
+        android:id="@+id/DIF_SCREEN_HSCOREMSGPT1"
+        />
+    <com.vroy.trapper.widgets.AutoResizeTextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/DIF_SCREEN_HSCOREMSGPT2"
+        android:layout_above="@+id/difficulty_screen_backBtn"
+        />
+
+</RelativeLayout>

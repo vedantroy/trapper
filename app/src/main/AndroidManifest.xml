@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vroy.trapper">
+
+    <application
+        android:name=".Trapper"
+        android:allowBackup="true"
+        android:icon="@mipmap/circles_launcher_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".gameContent.GameActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".menuscreens.MainMenuActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".menuscreens.DeathScreenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".menuscreens.InstructionScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".menuscreens.DifficultyScreenActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

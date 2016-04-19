@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:background="@color/black"
+    tools:context="com.vroy.trapper.menuscreens.InstructionScreen">
+
+<com.vroy.trapper.widgets.AutoResizeTextView
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:id="@+id/instruction_screen_title"
+    android:text="@string/welcome_title"/>
+
+    <com.vroy.trapper.widgets.AutoResizeTextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/instruction_text"
+        android:text="@string/instructions_text"
+        />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="backBtnPressed"
+        android:id="@+id/instruction_screen_back_button"
+        android:background="@drawable/rounded_rect_btn"
+        android:text="@string/main_menu"
+        />
+
+</RelativeLayout>

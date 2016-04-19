@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:background="@color/black"
+    tools:context="com.vroy.trapper.menuscreens.DeathScreenActivity">
+
+
+
+    <com.vroy.trapper.widgets.AutoResizeTextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/death_text"
+        android:text="@string/death_message"
+        />
+
+
+    <Button
+        android:id="@+id/replayBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/play_button_text"
+        android:background="@drawable/rounded_rect_btn"
+        android:onClick="playBtnPressed"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/deathBackBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/Back_To_Main_Menu"
+        android:background="@drawable/rounded_rect_btn"
+        android:onClick="backBtnPressed"
+        android:textColor="@color/white"/>
+
+    <com.vroy.trapper.widgets.AutoResizeTextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/DEATH_SCORE_MSG_PT1" />
+
+    <com.vroy.trapper.widgets.AutoResizeTextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/DEATH_SCORE_MSG_PT2"/>
+
+
+    <com.vroy.trapper.widgets.AutoResizeTextView
+        android:layout_width = "0dp"
+        android:layout_height="0dp"
+        android:id="@+id/death_screen_tip"
+        android:text="@string/tipOne"
+        />
+
+</RelativeLayout>
